@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // ✅ ปิด ESLint ระหว่าง build (สำหรับ development)
+  // ✅ ปิด ESLint ระหว่าง build
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // ✅ ปิด TypeScript type checking ระหว่าง build
+  // ✅ ปิด TypeScript checking ระหว่าง build
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -18,6 +18,5 @@ const nextConfig = {
     ],
   },
 };
-
 
 export default nextConfig;
