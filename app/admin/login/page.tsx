@@ -131,12 +131,8 @@ export default function AdminLoginPage() {
               <div className="bg-gray-50 rounded-lg p-2">
                 <span className="text-gray-600">Admin:</span> <code className="text-blue-600">1111111111111 / admin123</code>
               </div>
-              <div className="bg-gray-50 rounded-lg p-2">
-                <span className="text-gray-600">Doctor:</span> <code className="text-green-600">2222222222222 / doctor123</code>
-              </div>
-              <div className="bg-gray-50 rounded-lg p-2">
-                <span className="text-gray-600">Helper:</span> <code className="text-purple-600">3333333333333 / helper123</code>
-              </div>
+
+              
             </div>
           </div>
         </div>
